@@ -5,3 +5,4 @@ console.log("Welcome to my program, "+ user)
 console.log("another line of code")
 console.log("Adding a line in sample branch")
 //comment is added
+//line added
