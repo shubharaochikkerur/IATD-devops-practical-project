@@ -6,8 +6,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: echo "Hello from GitHub actions"
-  forked:
+
+on: [commit]
+jobs: 
+  committed:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - run: echo "Forked today"
+     - uses: actions/checkout@v4
+     - run: echo "commit action worked"  
