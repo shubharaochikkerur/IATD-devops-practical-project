@@ -7,3 +7,4 @@ console.log("Adding a line in sample branch")
 console.log("Andothe comment added here")
 //comment is added
 //line added
+//lets add a new line here
