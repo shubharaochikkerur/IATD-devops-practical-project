@@ -13,11 +13,15 @@ test("wrapString: wrap complex sentence", () => {
 });
 
 // PLACE TESTS FOR isValidDateString UNDER HERE
-
+test("isValidDateString: valid date string", () =>{
+    expect(isValidDateString("37/10/2025")).toBe(false);//37 days do not exist
+});
 // Test for invalid string
 
 // Test for the wrong amount of "date segments" (see comments in utilities.js for more info)
-
+test("isValidDateString: valid date string", () =>{
+    expect(isValidDateString("10/2025")).toBe(false);
+});
 // Test for wrong number of digits in the day
 
 // Test for wrong number of digits in the month
