@@ -23,7 +23,9 @@ test("isValidDateString: valid date string", () =>{
     expect(isValidDateString("10/2025")).toBe(false);
 });
 // Test for wrong number of digits in the day
-
+test("isValidDateString: valid date string", () =>{
+    expect(isValidDateString("101")).toBe(false);
+});
 // Test for wrong number of digits in the month
 
 // Test for wrong number of digits in the year
