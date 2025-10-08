@@ -4,6 +4,6 @@ jobs:
   pushed:
     runs-on: ubuntu-latest
     steps:
-      name: run_my_script
+      name: run my script
       uses: actions/checkout@v4
       run: echo "Hello from GitHub actions"
