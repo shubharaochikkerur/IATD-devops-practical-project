@@ -1,5 +1,5 @@
 name: shubha first workplace
-on: push
+on: [push]
 jobs: 
   pushed:
     runs-on: ubuntu-latest
