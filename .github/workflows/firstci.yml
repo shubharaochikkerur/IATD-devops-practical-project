@@ -1,0 +1,8 @@
+name: shubha first workplace
+on: push
+job: push operation
+runs-on: ubuntu-latest
+steps:
+ - uses: actions/checkout@v4
+ - name: run a script
+ run: echo "Hello from GitHub actions"
