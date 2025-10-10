@@ -15,7 +15,7 @@ jobs:
             - name: set up docker build tools
               uses: docker/setup-buildx-action@v3
             - name: build limage and push to docker hub
-              uses: docker-push-action@v5
+              uses: docker/build-push-action@v5
               with:
                 context: .
                 file: ./Dockerfile
