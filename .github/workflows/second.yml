@@ -1,5 +1,5 @@
 name: second yml file
-on: [commit]
+on: [push] #[commit] #commit is not an event on server!
 jobs: 
   committed:
     runs-on: ubuntu-latest
