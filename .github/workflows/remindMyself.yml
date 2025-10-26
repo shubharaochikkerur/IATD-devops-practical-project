@@ -1,0 +1,8 @@
+name: shubha remind1
+on: [push]
+jobs:
+    pushed:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - run: echo "remember anything?"
